@@ -15,6 +15,7 @@ body {
   	min-height: 100vh;
     line-height: 1.6;
   	color: black;
+    font-family: "Open Sans", "Sans-serif";
 }
 a {
     text-decoration: none;
@@ -32,7 +33,9 @@ header {
   	grid-row: 1;
   	grid-column: 1/ -1; /* Span across all columns */
   	background-color: #209DBD;
+    height: 125px;
   	text-align: center;
+    align-content: center;
     position: relative;
   	color: white;
   	font-family: "Open Sans", "sans-serif";
@@ -111,6 +114,13 @@ nav ul li a:hover {
     text-align: center;
 }
 
+.tenor-sans-regular {
+  font-family: "Tenor Sans", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
 /* Main Content */
 
 main {
@@ -138,7 +148,7 @@ h5 {
 /* Home Page */
 
 .home {
-  max-width: 1300px;
+  max-width: 1500px;
   margin: 0 auto;
   display: grid;
   grid-template-columns: 1fr 1fr;
